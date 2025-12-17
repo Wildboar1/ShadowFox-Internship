@@ -1,7 +1,7 @@
 import random
 
 def play_hangman():
-    #Word Selection
+    #WordSelection
     words = ['python', 'developer', 'algorithm', 'function', 'variable', 'syntax']
     word = random.choice(words).upper()
     
