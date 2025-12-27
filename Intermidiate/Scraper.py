@@ -38,7 +38,7 @@ def get_table_from_url(url):
     return None
 
 def scrape_multiple_to_excel():
-    filename = "IPL_Combined_Dataset.xlsx"
+    filename = "IPL_Dataset.xlsx"
     
     with pd.ExcelWriter(filename, engine='openpyxl') as writer:
         current_row = 0
